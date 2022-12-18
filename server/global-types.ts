@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/no-shadow */
 
-type Config = typeof import('../config/config-example') & AnyObject;
+type Config = typeof import('../config/config') & AnyObject;
 
 type GroupSymbol = import('./user-groups').GroupSymbol;
 type AuthLevel = import('./user-groups').AuthLevel;

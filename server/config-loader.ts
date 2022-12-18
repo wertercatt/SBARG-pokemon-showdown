@@ -5,7 +5,7 @@
  * @license MIT
  */
 
-import * as defaults from '../config/config-example';
+import * as defaults from '../config/config';
 import type {GroupInfo, EffectiveGroupSymbol} from './user-groups';
 import {ProcessManager} from '../lib';
 
